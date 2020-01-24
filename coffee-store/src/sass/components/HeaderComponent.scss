@@ -1,0 +1,54 @@
+@import '../common/variables';
+@import '../common/mixins';
+@import '../common/all';
+
+
+
+.headercomponent-container{
+    font-family: $font-family-body;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: table;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.4);
+    animation: banner-in 2s;
+    .headercomponent-textcontainer{
+        display: table-cell;
+        vertical-align: middle;
+    h1{
+        font-size: 50px;
+        margin: 0px 0px 20px
+    }
+    .headerComponent-p{
+        font-family:$font-family-p ;
+        font-size: 14px;
+        margin: 0px 0px 18px;
+        animation: opacity 3s;
+    }
+    .headerComponent-a{
+        padding: 10px 20px;
+        font-size: 13px;
+        letter-spacing: 3px;
+        background-color: #daa37f;
+        text-transform: uppercase;
+        text-decoration: none;
+        color:#fff;
+       }
+       .headerComponent-a:hover{
+           color: rgba(255,255,255,0.8);
+       }
+    .headercomponent-arrow{
+        position: absolute;
+        bottom: 15px;
+        left: 50%;
+        margin-left: -12px;
+        opacity: 0.9;
+        cursor: pointer;
+    }
+    }
+  }
+
+

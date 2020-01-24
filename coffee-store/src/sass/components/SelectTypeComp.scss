@@ -1,0 +1,32 @@
+@import '../common/all';
+@import '../common/variables';
+@import '../common/mixins';
+
+.select-comp-container{
+    padding: 0px 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: absolute;
+    top: 606px;
+    .select-comp-row{
+        text-align: center;
+        margin: 0px -15px;
+    }
+    .select-comp-row-txt{
+        display: inline-block;
+        float: none;
+        width: 66.66666667%;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .select-title{
+        line-height: 36px;
+        font-size: 26px;
+        margin: 0px 0px 20px;
+        text-transform: uppercase;
+        font-weight: 500;
+
+    }
+}

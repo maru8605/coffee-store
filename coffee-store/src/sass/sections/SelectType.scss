@@ -1,0 +1,17 @@
+@import '../common/all';
+@import '../common/variables';
+@import '../common/mixins';
+
+.select-type-container{
+    background-image: url(https://image.ibb.co/nNCuib/coffee_item_10.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fff;
+    width: 100%;
+    height: 1300px;
+    color:#333333;
+    font-size: 14px;
+    font-family: $font-family-body;
+    padding: 60px 0px;
+}
