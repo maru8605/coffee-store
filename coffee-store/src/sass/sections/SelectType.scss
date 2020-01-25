@@ -3,10 +3,10 @@
 @import '../common/mixins';
 
 .select-type-container{
-    background-image: url(https://image.ibb.co/nNCuib/coffee_item_10.jpg);
+     background-image: url(../../img/img/select-type-coffee.jpg);
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+     background-repeat: no-repeat;
+     background-size: cover;
     background-color: #fff;
     width: 100%;
     height: 1300px;
@@ -14,4 +14,12 @@
     font-size: 14px;
     font-family: $font-family-body;
     padding: 60px 0px;
+    position: relative;
+    overflow: hidden;
+    // .select-type-background{
+        // background-image: url(https://image.ibb.co/nNCuib/coffee_item_10.jpg);
+        // background-position: center;
+        // background-repeat: no-repeat;
+        // background-size: cover;
+    
 }

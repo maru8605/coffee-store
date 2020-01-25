@@ -6,8 +6,8 @@
     padding: 0px 15px;
     margin-right: auto;
     margin-left: auto;
-    position: absolute;
-    top: 606px;
+    // position: absolute;
+    // top: 606px;
     .select-comp-row{
         text-align: center;
         margin: 0px -15px;
@@ -22,11 +22,73 @@
         padding-left: 15px;
     }
     .select-title{
+        font-family: $font-family-body;
         line-height: 36px;
         font-size: 26px;
         margin: 0px 0px 20px;
         text-transform: uppercase;
+        // font-weight: 500;
+        text-align: center;
         font-weight: 500;
-
+        color: black;
     }
+    .select-subtitle{
+        color: $color-secundary-txt;
+        line-height: 23px;
+        font-family: $font-family-p;
+        text-align: center;
+        padding: 0px 50px;
+    }
+}
+
+.select-comp-mugs-container{
+    margin: 0px auto;
+    margin-top: 30px;
+    text-align: center;
+    .mug-card{
+        margin-bottom: 30px;
+        padding: 0px 15px;
+        position: relative;
+        min-height: 1px;
+        .mug-card-img{
+            width: 35%;
+            vertical-align: middle;
+            border: 0;
+        }
+        .mug-card-title{
+            letter-spacing: 1px;
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-family: $font-family-body;
+            color: black;
+        }
+        .mug-card-txt{
+            margin: 0;
+            line-height: 23px;
+            padding: 0 50px;
+            font-family: $font-family-p;
+            color: $color-secundary-txt;
+        }
+    }
+}
+
+.select-bottom{
+    margin: 30px -15px 0px;
+}
+.select-a{
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 11px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    background-color: #daa37f;
+    border-radius: 0;
+    text-align: center;
+    text-transform: uppercase;  
+}
+.select-a:hover{
+    color: rgba(255,255,255, 0.6);
 }
