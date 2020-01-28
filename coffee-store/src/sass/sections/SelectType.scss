@@ -3,10 +3,10 @@
 @import '../common/mixins';
 
 .select-type-container{
-     background-image: url(../../img/img/select-type-coffee.jpg);
+    background-image: url(../../img/img/select-type-coffee.jpg);
     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #fff;
     width: 100%;
     height: 1300px;
@@ -22,4 +22,62 @@
         // background-repeat: no-repeat;
         // background-size: cover;
     
+    
+}
+
+.select-comp-container{
+    padding: 0px 15px;
+    margin-right: auto;
+    margin-left: auto;
+    // position: absolute;
+    // top: 606px;
+    .select-comp-row{
+        text-align: center;
+        margin: 0px -15px;
+    }
+    .select-comp-row-txt{
+        display: inline-block;
+        float: none;
+        width: 66.66666667%;
+        position: relative;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .select-title{
+        font-family: $font-family-body;
+        line-height: 36px;
+        font-size: 26px;
+        margin: 0px 0px 20px;
+        text-transform: uppercase;
+        // font-weight: 500;
+        text-align: center;
+        font-weight: 500;
+        color: black;
+    }
+    .select-subtitle{
+        color: $color-secundary-txt;
+        line-height: 23px;
+        font-family: $font-family-p;
+        text-align: center;
+        padding: 0px 50px;
+    }
+}
+
+.select-bottom{
+    margin: 30px -15px 0px;
+}
+.select-a{
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 11px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    background-color: #daa37f;
+    border-radius: 0;
+    text-align: center;
+    text-transform: uppercase;  
+}
+.select-a:hover{
+    color: rgba(255,255,255, 0.6);
 }

@@ -2,44 +2,7 @@
 @import '../common/variables';
 @import '../common/mixins';
 
-.select-comp-container{
-    padding: 0px 15px;
-    margin-right: auto;
-    margin-left: auto;
-    // position: absolute;
-    // top: 606px;
-    .select-comp-row{
-        text-align: center;
-        margin: 0px -15px;
-    }
-    .select-comp-row-txt{
-        display: inline-block;
-        float: none;
-        width: 66.66666667%;
-        position: relative;
-        min-height: 1px;
-        padding-right: 15px;
-        padding-left: 15px;
-    }
-    .select-title{
-        font-family: $font-family-body;
-        line-height: 36px;
-        font-size: 26px;
-        margin: 0px 0px 20px;
-        text-transform: uppercase;
-        // font-weight: 500;
-        text-align: center;
-        font-weight: 500;
-        color: black;
-    }
-    .select-subtitle{
-        color: $color-secundary-txt;
-        line-height: 23px;
-        font-family: $font-family-p;
-        text-align: center;
-        padding: 0px 50px;
-    }
-}
+
 
 .select-comp-mugs-container{
     margin: 0px auto;
@@ -50,10 +13,23 @@
         padding: 0px 15px;
         position: relative;
         min-height: 1px;
+        width: 65%;
+        @include tablet  {
+            max-width: 36%;
+            }
+            @include desktop {
+                max-width: 90%;
+            }
         .mug-card-img{
-            width: 35%;
+            // width: 65%;
             vertical-align: middle;
             border: 0;
+            @include tablet  {
+            max-width: 36%;
+            }
+            @include desktop {
+                max-width: 90%;
+            }
         }
         .mug-card-title{
             letter-spacing: 1px;
@@ -75,20 +51,4 @@
     }
 }
 
-.select-bottom{
-    margin: 30px -15px 0px;
-}
-.select-a{
-    color: #fff;
-    padding: 10px 20px;
-    font-size: 11px;
-    letter-spacing: 3px;
-    font-weight: 500;
-    background-color: #daa37f;
-    border-radius: 0;
-    text-align: center;
-    text-transform: uppercase;  
-}
-.select-a:hover{
-    color: rgba(255,255,255, 0.6);
-}
+
