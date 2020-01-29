@@ -1,0 +1,28 @@
+@import '../common/variables';
+@import '../common/mixins';
+@import '../common/all';
+
+.fresh-bean-container{
+    font-family: $font-family-body;
+    // display: flex;
+    .fresh-bean-txtcontainer{
+        padding: 150px;
+        width: 50%;
+        display: table-cell;
+        background-color: #fff;
+        color:black;
+        font-size: 10px;
+        text-align: left;
+    }
+    .fresh-bean-imgcontainer{
+        width: 50%;
+            display: table-cell;
+            background-color: #fff; 
+            background-size: cover;    
+    }
+}
+
+.h1{
+    font-size: 20px;
+    text-align: left;
+}

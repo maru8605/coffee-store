@@ -4,31 +4,34 @@
 
 
 
-.select-comp-mugs-container{
-    margin: 0px auto;
-    margin-top: 30px;
-    text-align: center;
+
+    
+    
     .mug-card{
         margin-bottom: 30px;
         padding: 0px 15px;
         position: relative;
         min-height: 1px;
-        width: 65%;
+        width: 100%;
+        // width:;
         @include tablet  {
             max-width: 36%;
             }
             @include desktop {
-                max-width: 90%;
+                max-width: 30%;
+            
+        
+            ;
             }
         .mug-card-img{
             // width: 65%;
             vertical-align: middle;
             border: 0;
-            @include tablet  {
-            max-width: 36%;
-            }
-            @include desktop {
-                max-width: 90%;
+            // @include tablet  {
+            // max-width: 36%;
+            // }
+            // @include desktop {
+                // max-width: 90%;
             }
         }
         .mug-card-title{
@@ -48,7 +51,7 @@
             font-family: $font-family-p;
             color: $color-secundary-txt;
         }
-    }
-}
+    
+
 
 

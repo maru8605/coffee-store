@@ -5,6 +5,9 @@
 .our-story-container{
     padding: 80px 0 0;
     background-color: #1D140B;
+    @include desktop{
+        padding: 130px 0px 0px;
+    }
 }
 
 .prueba{

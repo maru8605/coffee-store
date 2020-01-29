@@ -1,0 +1,26 @@
+@import '../common/variables';
+@import '../common/mixins';
+@import '../common/all';
+
+.bestcoffee-container{
+    padding: 90px 0px;
+    height: 450px;
+    position: relative;
+    .bestcoffee-txtcontainer{
+        padding: 20px;
+        margin: 0px 100px;
+    }
+    .txtcontainer-small{
+        max-width: 50%;
+
+    }
+}
+
+.h1{
+    color: #fff;
+    margin-bottom: 100px;
+}
+.p{
+    color: #fff;
+    margin: 80px 0px 50px;
+}

@@ -36,7 +36,7 @@ const SelectType =()=>{
                     </p>
                 </div>
             </div>
-             <div>
+            <div className='mugcard-container'>
             {mugCard.map (mugCard => {
             return (<SelectTypeCont title={mugCard.title}
                    subtitle={mugCard.subtitle}
