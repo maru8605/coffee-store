@@ -18,14 +18,12 @@ const BestCoffeeShop =()=>{
                 <TitleSections
                 sectionTitle={title.sectionTitle}
                 sectionSubtitle={title.sectionSubtitle}
-                sectionBottom={title.sectionBottom}></TitleSections>
+                sectionBottom={title.sectionBottom}>
+                    <BestCoffeeShopComp />
+                </TitleSections>
                 </div>
-                <div>
-                    <BestCoffeeShopComp>
-                        
-                    </BestCoffeeShopComp>
-                </div>
-
+            
+            
             </div>
         </div>
     )

@@ -10,7 +10,7 @@
     .mug-card{
         margin-bottom: 30px;
         padding: 0px 15px;
-        position: relative;
+        // position: relative;
         min-height: 1px;
         width: 100%;
         // width:;
@@ -24,7 +24,7 @@
             ;
             }
         .mug-card-img{
-            // width: 65%;
+            position: initial;
             vertical-align: middle;
             border: 0;
             // @include tablet  {

@@ -2,18 +2,12 @@
 @import '../common/mixins';
 @import '../common/all';
 
-
-img{
-    position: absolute;
-    top: 160px;
-}
-
-.icon-1{
-    left: 216px;
+.icon-1 {
+    margin: 10px;
 }
 .icon-2{
-     left: 300px;
+    margin: 10px
 }
 .icon-3{
-    left: 390px;
+    margin: 10px;
 }

@@ -5,8 +5,11 @@ import OurStory from '../src/sections/OurStory/OurStory';
 import FreshBean from '../src/sections/FreshBean/FresBean';
 import GreatCoffee from '../src/sections/GreatCoffee/GreatCoffee';
 import BestCoffeeShop from '../src/sections/BestCoffeeShop/BestCoffeeShop';
+import ThreeImg from '../src/sections/ThreeImg/ThreeImg';
+import LatestFromBlog from '../src/sections/LatestFromBlog/LatestFromBlog';
 
 import './App.css';
+import LatestFromBlogComp from './components/LatestFromBlogComp/LatestFromBlogComp';
 
 
 function App() {
@@ -19,6 +22,8 @@ function App() {
        <FreshBean></FreshBean>
        <GreatCoffee></GreatCoffee>
        <BestCoffeeShop></BestCoffeeShop>
+       <ThreeImg></ThreeImg>
+       <LatestFromBlog></LatestFromBlog>
      </div>
     </div>
   );

@@ -1,0 +1,19 @@
+@import '../common/variables';
+@import '../common/mixins';
+@import '../common/all';
+
+.three-img-container{
+    display: flex;
+    height: 33.3%;
+    width: 100%;
+
+    .three-img{
+        height: 0;
+        padding-bottom: 33.3%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 33.33%;
+        flex-direction: row;
+    }
+}
