@@ -1,0 +1,60 @@
+@import '../common/variables';
+@import '../common/mixins';
+@import '../common/all';
+
+.footer-container{
+    display: table;
+    width: 100%;
+    height: 550px;
+    text-align: left;
+    
+    h2{
+        font-size: 28px;
+        font-family: $font-family-body;
+        color: #fff;
+        margin: 0 0 25px
+    }
+    h3{
+       color: #DAA37F;
+       font-family: $font-family-body;
+       font-size: 14px;
+       margin: 20px 0px 10px;
+    }
+    p{
+        font-family: $font-family-p;
+        font-size: 14px;
+        color: #d7d7d7;  
+        margin: 0 0 25px;
+    }
+    a{
+        padding: 10px 20px;
+        font-size: 13px;
+        letter-spacing: 3px;
+        background-color: #daa37f;
+        text-transform: uppercase;
+        text-decoration: none;
+        color:#fff;
+    }
+    a:hover{
+        color: rgba(255,255,255,0.7);
+    }
+    .footer_half{
+        width: 50%;
+        display: table-cell;
+        padding: 100px 140px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+.footer_half-1{
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.footer_half-2{
+    background-color: #000;
+}

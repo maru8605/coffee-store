@@ -15,7 +15,7 @@ const GreatCoffee =()=>{
         <div className='greatcoffee-container' style={{backgroundImage:`url(${GreatCoffeeImg})`}}>
             <div className='greatcoffee-txtcontainer'>
                 
-             <TitleSections className="text-black"
+             <TitleSections className="text-black text-align"
                 sectionTitle={title.sectionTitle}
                 sectionSubtitle={title.sectionSubtitle}
                 sectionBottom={title.sectionBottom}></TitleSections>

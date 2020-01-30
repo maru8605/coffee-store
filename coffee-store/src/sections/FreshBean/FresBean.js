@@ -15,7 +15,7 @@ const FreshBean =()=>{
     return(
         <div className='fresh-bean-container'>
              <div className='fresh-bean-txtcontainer'>
-                <TitleSections className="text-black"
+                <TitleSections className="text-black text-align"
                 sectionTitle={title.sectionTitle}
                 sectionSubtitle={title.sectionSubtitle}
                 sectionBottom={title.sectionBottom}></TitleSections>

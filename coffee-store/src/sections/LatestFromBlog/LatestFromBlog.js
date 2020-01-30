@@ -37,7 +37,7 @@ const LatestFromBlog =()=>{
     return(
         <div>
         <div className='section-container'>
-          <TitleSections
+          <TitleSections className='text-black'
                 sectionTitle={title.sectionTitle}
                 sectionSubtitle={title.sectionSubtitle}
                 sectionBottom={title.sectionBottom}>

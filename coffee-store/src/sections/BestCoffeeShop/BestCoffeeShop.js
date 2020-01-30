@@ -15,7 +15,7 @@ const BestCoffeeShop =()=>{
         <div className='bestcoffee-container' style={{backgroundImage:`url(${BestCoffeeShopImg})`}}>
             <div className='bestcoffee-txtcontainer'>
                 <div className='txtcontainer-small'>
-                <TitleSections
+                <TitleSections 
                 sectionTitle={title.sectionTitle}
                 sectionSubtitle={title.sectionSubtitle}
                 sectionBottom={title.sectionBottom}>

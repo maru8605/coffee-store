@@ -7,9 +7,10 @@ import GreatCoffee from '../src/sections/GreatCoffee/GreatCoffee';
 import BestCoffeeShop from '../src/sections/BestCoffeeShop/BestCoffeeShop';
 import ThreeImg from '../src/sections/ThreeImg/ThreeImg';
 import LatestFromBlog from '../src/sections/LatestFromBlog/LatestFromBlog';
+import Footer from '../src/sections/Footer/Footer';
 
 import './App.css';
-import LatestFromBlogComp from './components/LatestFromBlogComp/LatestFromBlogComp';
+
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
        <BestCoffeeShop></BestCoffeeShop>
        <ThreeImg></ThreeImg>
        <LatestFromBlog></LatestFromBlog>
+       <Footer></Footer>
      </div>
     </div>
   );

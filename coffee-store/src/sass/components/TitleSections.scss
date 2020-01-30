@@ -2,8 +2,16 @@
 @import '../common/mixins';
 @import '../common/all';
 .text-black {
-    h1, p{
+    h1{
         color: black!important;
+    }
+    p{
+        color:#767676 !important;
+    }
+}
+.text-align{
+    h1 , p {
+    text-align: left !important;
     }
 }
 .h1{
@@ -17,6 +25,7 @@
     font-family:$font-family-p ;
     font-size: 14px;
     margin: 0px 0px 18px;
+    
 }
 
 .bottom{
