@@ -37,11 +37,13 @@ const LatestFromBlog =()=>{
     return(
         <div>
         <div className='section-container'>
-          <TitleSections className='text-black'
+          <TitleSections className='text-black txt-container-blog'
                 sectionTitle={title.sectionTitle}
                 sectionSubtitle={title.sectionSubtitle}
-                sectionBottom={title.sectionBottom}>
-                    <div className='container'>
+                sectionBottom={title.sectionBottom}
+                   displaybutton="none">
+                </TitleSections>
+                <div className='container'>
                     {
                     blogCard.map(item=>{
                         return(
@@ -54,8 +56,10 @@ const LatestFromBlog =()=>{
                             )
                         })
                     }
-                 </div>   
-                </TitleSections>
+                 </div>
+                 <div className='a-container'>
+                     <a className="blog-button"> BROWSE MENU</a>
+                 </div>
         </div>
         </div>
     )

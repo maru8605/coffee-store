@@ -7,7 +7,7 @@ const TitleSections =props=>{
       <h1 className='h1'>{props.sectionTitle}</h1>
       {props.children}
       <p className='p'>{props.sectionSubtitle}</p>
-      <a className='bottom'>{props.sectionBottom}</a>
+      <a className={`bottom ${props.displaybutton}`}>{props.sectionBottom}</a>
       </div>
     )
 }
